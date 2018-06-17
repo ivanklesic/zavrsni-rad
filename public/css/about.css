@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 0;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #fefefe;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    z-index: 100;
+}
+.podizbornik {
+    display: block;
+    width: 100%;
+    height: 29px;
+    background-color: #f37014;
+}
+.podizbornik a {
+    display: inline;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+.podizbornik a:first-of-type {
+    margin-right: 6%;
+}
+.podizbornik a:hover {
+    background-color: #fff;
+    color: #f37014;
+}
+.logo {
+    position: relative;
+    top:-29px;
+    display: inline-block;
+    width: auto;
+    height: 111px;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 5%;
+    background-color: rgba(255,255,255,0.5);
+}
+.logo img {
+    height: 100%;
+    position: relative;
+    top: 8px;
+}
+.logo_tekst {
+    display: inline-block;
+    margin-top: 34px;
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 2%;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f37014;
+    text-align: center;
+}
+.logoblue {
+    color: #1c5078;
+}
+.izbornik {
+    display: inline-block;
+    width: auto;
+    height: 111px;
+    float: left;
+    margin-left: 13%;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.topnav li {
+    float: left;
+}
+ul.topnav li a {
+    display: inline-block;
+    height: 111px;
+    color: #1c5078;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+    line-height: 111px;
+    font-family: 'Roboto', sans-serif;
+}
+ul.topnav li.home {
+    width: 60px;
+    height: 111px;
+    background-image: url("../images/home1.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s ease;
+    box-shadow: inset 0px -5px 0px 0px #f37014;
+    padding: 0 10px;
+}
+/*.home_off {
+    background-image: url("../images/home.png");
+}*/
+ul.topnav li.home:hover {
+    background-image: url("../images/home2.svg");
+    background-color: #f37014;
+}
+
+ul.topnav li.home a {
+    width: 60px;
+    padding: 0;
+}
+ul.topnav li a:not(.homea):hover {
+    background-color: #1c5078;
+    color: #fff;
+}
+ul.topnav li.red {
+    background-color: red;
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+.prijava {
+    margin-left: 200px;
+}
+ul.topnav .prijava a {
+    color: #d7a6a6;
+}
+.prijava_off {
+    background-color: #c93d3e;
+    color: #fff;
+}
+div:after {
+    clear: both;
+}
+.poz_glavna {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+.pozadina {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/plit11.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sadrzaj {
+    position: relative;
+    display: block;
+    width: 654px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.sadrzaj1 {
+    display: inline-block;
+}
+.txtp {
+    padding-top: 200px;
+    width: 400px;
+    height: 100vh;
+    background-image: url("../images/plit12.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.txtp h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #f37014;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #232323;
+}
+.txtp p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #efefef;
+    padding: 12px;
+    text-shadow: 1px 1px 2px #232323;
+}

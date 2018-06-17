@@ -1,0 +1,61 @@
+.body1{
+    margin-top: 160px;
+}
+
+.new-post{
+    padding: 16px 0;
+    border-bottom:1px solid #ccc;
+}
+
+.new-post header,
+.posts header{
+    margin-bottom: 20px;
+}
+
+.posts .post {
+    padding-left: 10px;
+    border-left: 3px solid #f37014;
+    margin-bottom: 30px;
+}
+
+.posts .post .info{
+    color: #aaa;
+    font-style: italic;
+}
+
+.posts .post .interaction{
+    color: #2f85c8;
+}
+
+.user-info{
+    border-left: 3px solid #f37014;
+    margin-left: 100px;
+}
+
+ul.error{
+    color:red;
+    margin:0;
+    padding:0;
+}
+
+table{
+
+    height: auto;
+}
+.table-user-information > tbody > tr {
+    border-top: 1px solid #f37014;
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+
+}
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+
+}
+
+.top{
+    margin-top:20px;
+}
